@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>Day0Example</members>
+		<members>Day2GitExample</members>
 		<name>ApexClass</name>
 	</types>
 	<version>40.0</version>

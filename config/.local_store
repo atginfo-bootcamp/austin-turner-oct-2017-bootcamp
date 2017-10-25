@@ -12,5 +12,19 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Day2GitExample.cls": {
+        "createdById": "0051I000000uWiwQAE",
+        "createdByName": "Austin Turner",
+        "createdDate": "2017-10-25T23:37:28.000Z",
+        "fileName": "unpackaged/classes/Day2GitExample.cls",
+        "fullName": "Day2GitExample",
+        "id": "01p1I000006y7SQQAY",
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedByName": "Austin Turner",
+        "lastModifiedDate": "2017-10-25T23:37:28.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
