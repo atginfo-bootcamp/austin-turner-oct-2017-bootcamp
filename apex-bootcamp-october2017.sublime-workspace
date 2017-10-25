@@ -1,0 +1,1680 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"REC",
+				"PUBLIC RECURRING\tString"
+			],
+			[
+				"sty",
+				"styleClass\t(String)"
+			],
+			[
+				"OracleInvoice",
+				"OracleInvoiceExportHelper\t[Custom Apex Class]"
+			],
+			[
+				"create",
+				"createQuoteLines"
+			],
+			[
+				"opp",
+				"opportunity"
+			],
+			[
+				"oracle",
+				"oracleDistibution"
+			],
+			[
+				"su",
+				"PUBLIC substringBefore(String separator) \tString"
+			],
+			[
+				"RR_",
+				"INV_RR_IMMEDIATE"
+			],
+			[
+				"invoic",
+				"invoiceLine"
+			],
+			[
+				"inv",
+				"invoiceLine"
+			],
+			[
+				"getMa",
+				"PUBLIC getMapFromSObjectListProp(LIST items, String prop1, String prop2) \tMap"
+			],
+			[
+				"cancel",
+				"cancelledInvoiceLines"
+			],
+			[
+				"countr",
+				"countryCode"
+			],
+			[
+				"Oracl",
+				"OracleConversionUtil\t[Custom Apex Class]"
+			],
+			[
+				"statu",
+				"getStatusCode"
+			],
+			[
+				"sta",
+				"PUBLIC getStatusCode() \tInteger"
+			],
+			[
+				"getS",
+				"PUBLIC getStatusCode() \tInteger"
+			],
+			[
+				"setB",
+				"PUBLIC setBodyDocument(ANY body) \tvoid"
+			],
+			[
+				"quer",
+				"PUBLIC queryOrderFromOpportunityId(Id oppId) \tLIST"
+			],
+			[
+				"ass",
+				"assertEquals()"
+			],
+			[
+				"get",
+				"PUBLIC getMessage() \tString"
+			],
+			[
+				"newIn",
+				"PUBLIC newInstance(Date date, Time time) \tDatetime"
+			],
+			[
+				"newly",
+				"newlyActivatedItems"
+			],
+			[
+				"as",
+				"assertEquals()"
+			],
+			[
+				"SBQQ",
+				"SBQQ__Quote__c"
+			],
+			[
+				"assert",
+				"assertEquals()"
+			],
+			[
+				"asse",
+				"assert()"
+			],
+			[
+				"PARTI",
+				"PUBLIC PARTICIPANT_SETTINGS_NAME\tString"
+			],
+			[
+				"Test",
+				"TestUtils\t[Custom Apex Class]"
+			],
+			[
+				"IDXDep",
+				"IDXDependent\t[Custom Apex Class]"
+			],
+			[
+				"asset",
+				"assertEquals()"
+			],
+			[
+				"AHP",
+				"AHP_Web_Switch_Queue__c"
+			],
+			[
+				"produ",
+				"productCode"
+			],
+			[
+				"createiit",
+				"PUBLIC createIITProducts() \tvoid"
+			],
+			[
+				"creaIIT",
+				"PUBLIC createIITConfigObjects() \tvoid"
+			],
+			[
+				"ahp",
+				"ahpData"
+			],
+			[
+				"GROUP",
+				"GROUP_RECORD_TYPE"
+			],
+			[
+				"update",
+				"updatedWs"
+			],
+			[
+				"user",
+				"PUBLIC createGenericUser(String username, String email, String profileId) \tUser"
+			],
+			[
+				"fail",
+				"failure"
+			],
+			[
+				"orA",
+				"PUBLIC orAndOptions\tLIST"
+			],
+			[
+				"sear",
+				"PUBLIC searchTerm\tString"
+			],
+			[
+				"asser",
+				"assertNotEquals()"
+			],
+			[
+				"ter",
+				"PUBLIC searchTerm\tString"
+			],
+			[
+				"repro",
+				"reprocessFailures"
+			],
+			[
+				"Group",
+				"GroupUsageHelper\t[Custom Apex Class]"
+			],
+			[
+				"add",
+				"PUBLIC addHours(Integer hours) \tDatetime"
+			],
+			[
+				"usage",
+				"usageStartTimeTemp"
+			],
+			[
+				"acc",
+				"accountId"
+			],
+			[
+				"account",
+				"accountObj"
+			],
+			[
+				"prima",
+				"primaryContact"
+			],
+			[
+				"Last",
+				"PUBLIC Last_Name\tString"
+			],
+			[
+				"pri",
+				"primaryContact"
+			],
+			[
+				"Date",
+				"Datetime\t[Standard Apex Class]"
+			],
+			[
+				"pa",
+				"PUBLIC valueOf(Object a) \tBoolean"
+			],
+			[
+				"PART",
+				"Participant_ID__c"
+			],
+			[
+				"mo",
+				"PUBLIC month() \tInteger"
+			],
+			[
+				"change",
+				"changedSubscriptions"
+			],
+			[
+				"char",
+				"chargeEndDate"
+			],
+			[
+				"New",
+				"New_Order_Product__c"
+			],
+			[
+				"updateContactSubscriptions",
+				"PUBLIC updateContactSubscriptions(Id existingOrderProductId, Id newOrderProductId, Date chargeEndDate, Boolean autoApprove) \tLIST"
+			],
+			[
+				"charge",
+				"chargeEndDate"
+			],
+			[
+				"Conta",
+				"Contact_Subscription__c"
+			],
+			[
+				"contac",
+				"contactSubscription"
+			],
+			[
+				"cont",
+				"Contact_Subscription__c"
+			],
+			[
+				"group",
+				"groupPricingMap"
+			],
+			[
+				"outp",
+				"apex:outputText"
+			],
+			[
+				"IDX",
+				"IDXExceptions\t[Custom Apex Class]"
+			],
+			[
+				"failed",
+				"failedRecords"
+			],
+			[
+				"Grou",
+				"GroupId__c"
+			],
+			[
+				"groupIs",
+				"groupProcessingResultId"
+			],
+			[
+				"gro",
+				"groupIds"
+			],
+			[
+				"incl",
+				"includeChildString"
+			],
+			[
+				"grou",
+				"groupId"
+			],
+			[
+				"effe",
+				"effectiveDateString"
+			],
+			[
+				"getIdxMemberCounts",
+				"PUBLIC getIdxMemberCounts(String effectiveDate, String groupId, String includeChild) \tLIST"
+			],
+			[
+				"oldAc",
+				"oldAccountMap"
+			],
+			[
+				"groupPric",
+				"groupPricingKey"
+			],
+			[
+				"parent",
+				"Parent_Group_ID__c"
+			],
+			[
+				"Pri",
+				"Product_ID__c"
+			],
+			[
+				"show",
+				"showChat\t(Boolean)"
+			],
+			[
+				"re",
+				"reRender\t(Object)"
+			],
+			[
+				"ac",
+				"action\t(ApexPages.Action)"
+			],
+			[
+				"pageBlo",
+				"apex:pageBlockButtons"
+			],
+			[
+				"page",
+				"apex:pageBlockSection"
+			],
+			[
+				"out",
+				"apex:outputText"
+			],
+			[
+				"invoi",
+				"invoiceit_s__Order__r"
+			],
+			[
+				"product",
+				"productIds"
+			],
+			[
+				"rate",
+				"ratePlanChargeMap"
+			],
+			[
+				"gr",
+				"groupId"
+			],
+			[
+				"e",
+				"extensions\t(String)"
+			],
+			[
+				"ad",
+				"PUBLIC add(ANY element) \tObject"
+			],
+			[
+				"obj",
+				"objectFilterMap"
+			],
+			[
+				"ob",
+				"objectFilterMap"
+			],
+			[
+				"filter",
+				"filterValue"
+			],
+			[
+				"orderRate",
+				"orderRatePlanCharge"
+			],
+			[
+				"order",
+				"orderRatePlanCharge"
+			],
+			[
+				"ode",
+				"orderRatePlanCharge"
+			],
+			[
+				"orderB",
+				"PUBLIC orderByOptions\tLIST"
+			],
+			[
+				"con",
+				"PUBLIC contains(String str) \tBoolean"
+			],
+			[
+				"total",
+				"totalsMap"
+			],
+			[
+				"billing",
+				"billingRun"
+			],
+			[
+				"field",
+				"fieldToTermListMapOrCondition"
+			],
+			[
+				"outpu",
+				"apex:outputLink"
+			],
+			[
+				"searchForAccounts",
+				"PUBLIC searchForAccountsByContact(Map termToFieldMap) \tLIST"
+			],
+			[
+				"conta",
+				"contactCount"
+			],
+			[
+				"si",
+				"PUBLIC size() \tInteger"
+			],
+			[
+				"col",
+				"columns\t(Integer)"
+			],
+			[
+				"key",
+				"PUBLIC keySet() \tSET<String>"
+			],
+			[
+				"term",
+				"termToFieldMap"
+			],
+			[
+				"Search",
+				"searchTerms"
+			],
+			[
+				"inoic",
+				"invoiceRun"
+			],
+			[
+				"sche",
+				"scheduleIds"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/package.xml",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Day0Example.cls",
+			"settings":
+			{
+				"buffer_size": 71,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Day0Example.cls-meta.xml",
+			"settings":
+			{
+				"buffer_size": 174,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "javs",
+		"selected_items":
+		[
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"apex",
+				"Set Syntax: Apex"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"conc",
+				"Convert Case: Upper Case"
+			],
+			[
+				"jaca",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"resource",
+				"MavensMate: Create Resource Bundle..."
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"j",
+				"Pretty JSON: Validate"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"package contol setting",
+				"Preferences: Package Control Settings – User"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017",
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src",
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src/classes"
+	],
+	"file_history":
+	[
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InfringmentHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalXmlHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalBatch.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournal.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InvoiceTriggerHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InvoiceLineTriggerHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleInvoiceExportHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InvoiceLineTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InvoiceTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/InvoiceTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleInvoiceExportHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/AssociateVideosRemoteActions.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/SteelbrickTestUtils.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleHTTPProvider.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/JukinUtils.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/JukinConstants.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/FinanceOperationsController.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/InvoiceLineTrigger.trigger",
+		"/Users/austinturner/Downloads/SFDC Customer Extract Report_Customer Extract (7).csv",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/UsageTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/RoyaltyTransactionHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/UsageTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/RoyaltyTransactionTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleCustomerExportHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/AccountTriggerHelper.cls",
+		"/Users/austinturner/Downloads/SFDC Customer Extract Report_Customer Extract (6).csv",
+		"/Users/austinturner/Downloads/account-update.csv",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/RoyaltyTransactionTrigger.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/UsageTrigger.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/TriggerRoyaltyTransaction.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/TriggerUsage.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/AccountTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleCustomerExportHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/staticresources/AccociateVideosCSS.resource",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/staticresources/AssociateVideosJS.resource",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/AssociateVideoToQuoteLine.page",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/FinanceOperationsControllerTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/FinanceOperations.page",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/MassUpdateSimpleControllerTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/RoyaltyTransactionHelperTestDataUtil.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleHttpMockedResponse.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/AssociateVideoToQuoteLine.page-meta.xml",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleBatchLogBatchJobStartCtrlr.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleBatchLogBatchJobStartCtrlrTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleHTTPProviderMock.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleHTTPProviderTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalBatchSchedulable.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalBatchTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleCustomerExportExt.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OrderTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleConversionUtil.cls",
+		"/Users/austinturner/OneDrive/ATG/ATG IP TEAM - General/TR OneSource/onsource-combined-wsdl.wsdl.xml",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/OrderProductTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OrderProductTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/staticresources/QCP.resource",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/CreateCustomerExportRecords.page",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/CaseContactCreateTest2.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/OrderTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OrderProductTriggerHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleConversionUtilTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/AssociateVideosRemoteActionsTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/JukinVideoQuoteTemplateContentCtrlr.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/MassUpdater.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/MassUpdateSimpleController.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OpportunityTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleCustomerExportExtTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OrderTriggerHelperTest.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/RoyaltyTransactionHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/JukinUtilsTest.cls",
+		"/Users/austinturner/Downloads/jukin-legal-entities.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/data uploads/ArAutoinvoiceImport2/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/data uploads/ArAutoinvoiceImport2/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/data uploads/ArAutoinvoiceImport/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/data uploads/ArAutoinvoiceImport/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/Downloads/ArAutoinvoiceImport-1/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/Downloads/ArAutoinvoiceImport-1/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/components/StartOracleBulkJob.component",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/FinanceOperations.page-meta.xml",
+		"/Users/austinturner/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/README.md",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/.gitignore",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/CustomerImport7.18/ArAutoinvoiceImport10.1/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/CustomerImport7.18/ArAutoinvoiceImport10.1/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/CustomerImport7.18/aruploadcustomers/ArUpdContacts.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/CustomerImport7.18/aruploadcustomers/ArUpdCustomers.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport10.1 2/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport10.1 2/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport10.1/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport10.1/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/TEST10/ArAutoinvoiceImport/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-6/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-6/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-5 2/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-5 2/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-5/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/AutoInvoiceImportTemplate-JUKIN-TEST-5/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/ArAutoinvoiceImport/RaInterfaceLinesAll.csv",
+		"/Users/austinturner/OneDrive/ATG/Jukin Media - Documents/Implementation/Working Docs/Oracle Docs/ArAutoinvoiceImport/RaInterfaceDistributionsAll.csv",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InfringementsTriggerHelper.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/MyPageSecurityPlugin.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/InfringementsTrigger.trigger",
+		"/Users/austinturner/Downloads/retrieve_09S7A000000nG6SUAU/Sprint 10 (2)/globalValueSets/Project.globalValueSet",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OrderProductTriggerHelperTest.cls-meta.xml",
+		"/Users/austinturner/Downloads/payload.xml",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/triggers/OpportunityTrigger.trigger",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/JukinVideoQuoteTemplateContentCtrlr.cls-meta.xml",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournal.cls-meta.xml",
+		"/Users/austinturner/Downloads/countrycodes.csv",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/OracleBatchSendInvoice.page",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/XMLCreateInterfaceLine.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleInvoiceLine.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleTypes.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleConversion.cls",
+		"/Users/austinturner/Skype Downloads/AttachmentHandler.cls",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/pages/JukinVideoQuoteTemplateContent.page",
+		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/staticresources/UtilJS.resource",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/triggers/TriggerPaymentAllocation.trigger",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/CreateNewOrderPage.page",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/PaymentAllocationUtils.cls",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/triggers/IIT_TriggerOnInvoiceLine.trigger",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/MannaBillingController.cls",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/sharenotices.page",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/InvoicePdf.page",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/IIT_ClassAfterOnInvoiceLine.cls",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/CreateNewOrderController.cls",
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/OrderUtilsController.cls"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/package.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/Day0Example.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/Day0Example.cls-meta.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										121,
+										131
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										104,
+										114
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 239.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "apex-bootcamp-october2017.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"orderpr",
+				"src/classes/OrderProductTriggerHelperTest.cls"
+			],
+			[
+				"test",
+				"src/classes/InfringmentHelperTest.cls"
+			],
+			[
+				"jukinconstants",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"http",
+				"src/classes/OracleHTTPProvider.cls"
+			],
+			[
+				"journal",
+				"src/classes/OracleJournalBatch.cls"
+			],
+			[
+				"remoti",
+				"src/classes/AssociateVideosRemoteActions.cls"
+			],
+			[
+				"oracleinvoiceexporthelpertest",
+				"src/classes/OracleInvoiceExportHelperTest.cls"
+			],
+			[
+				"invoicelinetriggerhelper",
+				"src/classes/InvoiceLineTriggerHelperTest.cls"
+			],
+			[
+				"invoicelinetrigger",
+				"src/classes/InvoiceLineTriggerHelper.cls"
+			],
+			[
+				"financeop",
+				"src/classes/FinanceOperationsController.cls"
+			],
+			[
+				"jukin",
+				"src/classes/JukinUtils.cls"
+			],
+			[
+				"accounttrigg",
+				"src/classes/AccountTriggerHelper.cls"
+			],
+			[
+				"royal",
+				"src/triggers/RoyaltyTransactionTrigger.trigger"
+			],
+			[
+				"usagetri",
+				"src/triggers/UsageTrigger.trigger"
+			],
+			[
+				"royaltytransactiontrigge",
+				"src/classes/RoyaltyTransactionTrigger.cls"
+			],
+			[
+				"royaltytransactiontrigger",
+				"src/triggers/RoyaltyTransactionTrigger.trigger"
+			],
+			[
+				"usagetrigger",
+				"src/triggers/UsageTrigger.trigger"
+			],
+			[
+				"usagetrigg",
+				"src/classes/UsageTrigger.cls"
+			],
+			[
+				"usagetr",
+				"src/triggers/UsageTrigger.trigger"
+			],
+			[
+				"triggeru",
+				"src/classes/TriggerUsage.cls"
+			],
+			[
+				"associate",
+				"src/pages/AssociateVideoToQuoteLine.page"
+			],
+			[
+				"associat",
+				"src/staticresources/AssociateVideosJS.resource"
+			],
+			[
+				"associatevideos",
+				"src/staticresources/AccociateVideosCSS.resource"
+			],
+			[
+				"associatevideoscss",
+				"src/classes/AssociateVideosRemoteActions.cls"
+			],
+			[
+				"finance",
+				"src/pages/FinanceOperations.page"
+			],
+			[
+				"oraclecustomerexporthelper",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"oracleinvoiceexporthelper",
+				"src/classes/OracleInvoiceExportHelperTest.cls"
+			],
+			[
+				"invoiceexport",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"finaneop",
+				"src/classes/FinanceOperationsController.cls"
+			],
+			[
+				"accounttri",
+				"src/triggers/AccountTrigger.trigger"
+			],
+			[
+				"utils",
+				"src/classes/JukinUtils.cls"
+			],
+			[
+				"accountri",
+				"src/classes/AccountTriggerHelper.cls"
+			],
+			[
+				"contrller",
+				"src/classes/MassUpdateSimpleControllerTest.cls"
+			],
+			[
+				"oraclehttpmockedresponse",
+				"src/classes/OracleHttpMockedResponse.cls"
+			],
+			[
+				"mock",
+				"src/classes/OracleHttpMockedResponse.cls"
+			],
+			[
+				"constant",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"invoicee",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"consta",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"consa",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"royaltytransactionhelpertestdatautil",
+				"src/classes/RoyaltyTransactionHelperTestDataUtil.cls"
+			],
+			[
+				"oraclein",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"financeoperationscontroller",
+				"src/classes/FinanceOperationsController.cls"
+			],
+			[
+				"oraclecustomer",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"customer",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"customerex",
+				"src/classes/OracleCustomerExportExt.cls"
+			],
+			[
+				"ordertrig",
+				"src/classes/OrderTriggerHelper.cls"
+			],
+			[
+				"oracleinvo",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"ordertrigger",
+				"src/classes/OrderTriggerHelper.cls"
+			],
+			[
+				"orderprod",
+				"src/classes/OrderProductTriggerHelper.cls"
+			],
+			[
+				"orderpro",
+				"src/triggers/OrderProductTrigger.trigger"
+			],
+			[
+				"opera",
+				"src/pages/FinanceOperations.page"
+			],
+			[
+				"steelbricktestutils",
+				"src/classes/SteelbrickTestUtils.cls"
+			],
+			[
+				"invoicehe",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"oraclejourna",
+				"src/classes/OracleJournal.cls"
+			],
+			[
+				"oracleinvoice",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"steelbr",
+				"src/classes/SteelbrickTestUtils.cls"
+			],
+			[
+				"orderproducttri",
+				"src/classes/OrderProductTriggerHelper.cls"
+			],
+			[
+				"orderproducttriggerhelper",
+				"src/classes/OrderProductTriggerHelper.cls"
+			],
+			[
+				"ordertriggerhelper",
+				"src/classes/OrderTriggerHelper.cls"
+			],
+			[
+				"ordertri",
+				"src/triggers/OrderTrigger.trigger"
+			],
+			[
+				"oracleconversionutiltest",
+				"src/classes/OracleConversionUtilTest.cls"
+			],
+			[
+				"oracleconversionutil",
+				"src/classes/OracleConversionUtil.cls"
+			],
+			[
+				"tets",
+				"src/classes/SteelbrickTestUtils.cls"
+			],
+			[
+				"ordertrie",
+				"src/triggers/OrderTrigger.trigger"
+			],
+			[
+				"oracle",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"orderp",
+				"src/classes/OrderTriggerHelperTest.cls"
+			],
+			[
+				"oracleinv",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"steel",
+				"src/classes/SteelbrickTestUtils.cls"
+			],
+			[
+				"jukincon",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"oraclecustomerexportext",
+				"src/classes/OracleCustomerExportExt.cls"
+			],
+			[
+				"startoraclebulkjob",
+				"src/components/StartOracleBulkJob.component"
+			],
+			[
+				"usaget",
+				"src/triggers/UsageTrigger.trigger"
+			],
+			[
+				"royaltytransactionhelpertest",
+				"src/classes/RoyaltyTransactionHelperTest.cls"
+			],
+			[
+				"jukinutl",
+				"src/classes/JukinUtils.cls"
+			],
+			[
+				"sched",
+				"src/classes/OracleJournalBatchSchedulable.cls"
+			],
+			[
+				"oraclebatch",
+				"src/classes/OracleJournalBatch.cls"
+			],
+			[
+				"batch",
+				"src/classes/OracleBatchLogBatchJobStartCtrlr.cls"
+			],
+			[
+				"jukincons",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"royaltytransactionhelpert",
+				"src/classes/RoyaltyTransactionHelperTest.cls"
+			],
+			[
+				"roay",
+				"src/classes/RoyaltyTransactionHelper.cls"
+			],
+			[
+				"journa",
+				"src/classes/OracleJournal.cls"
+			],
+			[
+				"triggerhelper",
+				"src/classes/OpportunityTriggerHelper.cls"
+			],
+			[
+				"oraclejo",
+				"src/classes/OracleJournal.cls"
+			],
+			[
+				"invoiceex",
+				"src/classes/OracleInvoiceExportHelper.cls"
+			],
+			[
+				"unittest",
+				"src/classes/JukinUtilsTest.cls"
+			],
+			[
+				"constan",
+				"src/classes/JukinConstants.cls"
+			],
+			[
+				"jukinu",
+				"src/classes/JukinUtilsTest.cls"
+			],
+			[
+				"jukinutils",
+				"src/classes/JukinUtilsTest.cls"
+			],
+			[
+				"plugin",
+				"src/classes/MyPageSecurityPlugin.cls"
+			],
+			[
+				"unit",
+				"src/classes/JukinUtilsTest.cls"
+			],
+			[
+				"util",
+				"src/classes/JukinUtils.cls"
+			],
+			[
+				"opport",
+				"src/classes/OpportunityTriggerHelper.cls"
+			],
+			[
+				"oracleex",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"invoiceline",
+				"src/classes/InvoiceLineTriggerHelper.cls"
+			],
+			[
+				"infring",
+				"src/triggers/InfringementsTrigger.trigger"
+			],
+			[
+				"orderproducttriggerhelpertest.cls-meta.xml",
+				"src/classes/OrderProductTriggerHelperTest.cls-meta.xml"
+			],
+			[
+				"royalt",
+				"src/triggers/RoyaltyTransactionTrigger.trigger"
+			],
+			[
+				"invoicelin",
+				"src/triggers/InvoiceLineTrigger.trigger"
+			],
+			[
+				"opportu",
+				"src/triggers/OpportunityTrigger.trigger"
+			],
+			[
+				"royalti",
+				"src/classes/RoyaltyTransactionHelper.cls"
+			],
+			[
+				"infringmenthelper",
+				"src/classes/InfringementsTriggerHelper.cls"
+			],
+			[
+				"infri",
+				"src/classes/InfringmentHelper.cls"
+			],
+			[
+				"oraclebatchlogbatchjobstartctrlr",
+				"src/classes/OracleBatchLogBatchJobStartCtrlr.cls"
+			],
+			[
+				"orac",
+				"src/classes/OracleJournal.cls-meta.xml"
+			],
+			[
+				"ctrler",
+				"src/classes/JukinVideoQuoteTemplateContentCtrlr.cls-meta.xml"
+			],
+			[
+				"trigger",
+				"src/triggers/OpportunityTrigger.trigger"
+			],
+			[
+				"triggeropp",
+				"src/triggers/OpportunityTrigger.trigger"
+			],
+			[
+				"inr",
+				"src/classes/InfringmentHelper.cls"
+			],
+			[
+				"customere",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"asso",
+				"src/staticresources/AssociateVideosJS.resource"
+			],
+			[
+				"invoice",
+				"src/classes/InvoiceLineTriggerHelper.cls"
+			],
+			[
+				"export",
+				"src/classes/OracleCustomerExportHelper.cls"
+			],
+			[
+				"send",
+				"src/pages/OracleBatchSendInvoice.page"
+			],
+			[
+				"compon",
+				"src/components/StartOracleBulkJob.component"
+			],
+			[
+				"oraclejournaltest",
+				"src/classes/OracleJournalTest.cls"
+			],
+			[
+				"oraclejournalxmlhelper",
+				"src/classes/OracleJournalXmlHelper.cls"
+			],
+			[
+				"oraclexml",
+				"src/classes/OracleJournalXmlHelper.cls"
+			],
+			[
+				"oraclejour",
+				"src/classes/OracleJournal.cls"
+			],
+			[
+				"associatevideosremoteactions",
+				"src/classes/AssociateVideosRemoteActionsTest.cls"
+			],
+			[
+				"order",
+				"src/classes/OrderProductTriggerHelper.cls"
+			],
+			[
+				"quote",
+				"src/pages/JukinVideoQuoteTemplateContent.page"
+			],
+			[
+				"createo",
+				"src/triggers/CreateOpportunityFromCase.trigger"
+			],
+			[
+				"createquote",
+				"src/pages/CreateQuoteLine.page"
+			],
+			[
+				"iit_classafteroncontactsubscription",
+				"src/classes/IIT_ClassAfterOnContactSubscription.cls"
+			],
+			[
+				"oncont",
+				"src/triggers/IIT_TriggerOnContactSubscription.trigger"
+			],
+			[
+				"ahpwe",
+				"src/classes/IIT_AHPSwitchClassHelper.cls"
+			],
+			[
+				"invoicecontroller",
+				"src/classes/InvoiceController.cls"
+			],
+			[
+				"invoicep",
+				"src/pages/InvoicePdf.page"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
