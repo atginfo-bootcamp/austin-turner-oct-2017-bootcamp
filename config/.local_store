@@ -1,4 +1,34 @@
 {
+    "Day2GitExample.cls": {
+        "createdById": "0051I000000uWiwQAE",
+        "createdByName": "Austin Turner",
+        "createdDate": "2017-10-25T23:37:28.000Z",
+        "fileName": "unpackaged/classes/Day2GitExample.cls",
+        "fullName": "Day2GitExample",
+        "id": "01p1I000006y7SQQAY",
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedByName": "Austin Turner",
+        "lastModifiedDate": "2017-10-26T21:21:16.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Day3ListsAndLoops.cls": {
+        "id": "01p1I000008CC9sQAG",
+        "name": "Day3ListsAndLoops",
+        "createdDate": "2017-10-26T21:30:08.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-10-27T00:03:06.000+0000",
+        "fullName": "Day3ListsAndLoops",
+        "fileName": "unpackaged/classes/Day3ListsAndLoops.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
     "Day0Example.cls": {
         "createdById": "0051I000000uWiwQAE",
         "createdByName": "Austin Turner",
@@ -9,22 +39,6 @@
         "lastModifiedById": "0051I000000uWiwQAE",
         "lastModifiedByName": "Austin Turner",
         "lastModifiedDate": "2017-10-20T21:47:24.000Z",
-        "manageableState": "unmanaged",
-        "type": "ApexClass",
-        "mmState": "clean"
-    },
-    "Day2GitExample.cls": {
-        "id": "01p1I000006y7SQQAY",
-        "name": "Day2GitExample",
-        "createdDate": "2017-10-25T23:37:28.000+0000",
-        "createdById": "0051I000000uWiwQAE",
-        "namespacePrefix": null,
-        "lastModifiedById": "0051I000000uWiwQAE",
-        "lastModifiedDate": "2017-10-25T23:55:15.000+0000",
-        "fullName": "Day2GitExample",
-        "fileName": "unpackaged/classes/Day2GitExample.cls",
-        "createdByName": "Austin Turner",
-        "lastModifiedByName": "Austin Turner",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"

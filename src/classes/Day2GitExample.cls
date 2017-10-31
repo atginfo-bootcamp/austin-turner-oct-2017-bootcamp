@@ -1,3 +1,6 @@
+/**
+ * On day 3, we made this comment
+ */
 public with sharing class Day2GitExample {
 
 
