@@ -58,5 +58,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Day5Maps.cls": {
+        "id": "01p1I000008FPVQQA4",
+        "name": "Day5Maps",
+        "createdDate": "2017-11-01T21:18:59.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-11-01T22:57:35.000+0000",
+        "fullName": "Day5Maps",
+        "fileName": "unpackaged/classes/Day5Maps.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
