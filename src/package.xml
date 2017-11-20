@@ -8,6 +8,8 @@
 		<members>Day5Maps</members>
 		<members>ContactTriggerHelper</members>
 		<members>Person</members>
+		<members>Business</members>
+		<members>Employee</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
