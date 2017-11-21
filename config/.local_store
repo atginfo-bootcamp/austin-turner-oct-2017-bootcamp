@@ -170,5 +170,37 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "LocationManagement.cls": {
+        "id": "01p1I00000BA0BaQAL",
+        "name": "LocationManagement",
+        "createdDate": "2017-11-20T22:36:28.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-11-21T00:57:30.000+0000",
+        "fullName": "LocationManagement",
+        "fileName": "unpackaged/classes/LocationManagement.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "EmployeeTrigger.trigger": {
+        "id": "01q1I000000OJx1QAG",
+        "name": "EmployeeTrigger",
+        "createdDate": "2017-11-21T00:42:46.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-11-21T00:49:42.000+0000",
+        "fullName": "EmployeeTrigger",
+        "fileName": "unpackaged/triggers/EmployeeTrigger.trigger",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
     }
 }

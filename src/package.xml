@@ -10,11 +10,13 @@
 		<members>Person</members>
 		<members>Business</members>
 		<members>Employee</members>
+		<members>LocationManagement</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>LeadTrigger</members>
 		<members>ContactTrigger</members>
+		<members>EmployeeTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<version>40.0</version>
