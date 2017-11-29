@@ -1,0 +1,53 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account">
+	
+	<apex:form>
+
+		<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
+		<apex:pageBlock title="MyPageBlockTitle">
+			<apex:pageBlockButtons location="top">
+				
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="MyPageBlockSectionTitle">
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+
+		<apex:sectionHeader title="Bottom Section Header" />
+		<apex:pageBlock title="MyPageBlockTitle">
+			<apex:pageBlockButtons location="top">
+				
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="MyPageBlockSectionTitle" columns="1">
+				
+				<!-- the are SObject fields -->
+				<apex:outputField value="{!account.name}"/>
+				<apex:outputField value="{!account.type}"/>
+				<apex:outputField value="{!account.createdDate}"/>
+
+				<!-- These are not sobject fields -->
+				<apex:outputText value="This is some text (without a label)!"/>
+				<apex:outputText label="My Label" value="This is some text!"/>
+
+				<apex:outputText label="CreatedDate" value="{!account.createdDate}"/>
+
+				<apex:outputText label="18 digit id" value="{! casesafeid(account.Id) }"/>
+
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+
+		<apex:outputPanel layout="block">
+			This is a div
+		</apex:outputPanel>
+		<apex:outputPanel layout="inline">
+			this is a span
+		</apex:outputPanel>
+		<apex:outputPanel layout="inline">
+			this is a span
+		</apex:outputPanel>
+
+
+	</apex:form>
+</apex:page>

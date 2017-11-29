@@ -1,0 +1,178 @@
+<apex:page showHeader="true" sidebar="true">
+	
+	<!-- This is a comment -->
+	<apex:sectionHeader title="Day 13 Visualforce" subtitle="This is a subtitle">
+		<apex:form >
+			<apex:pageBlock title="My Pageblock title">
+				<apex:pageBlockSection columns="3" title="My Page Block Section">
+					<!-- apex:outputPanel -> converts to div or span -->
+					<apex:outputPanel layout="block">
+						This is a div
+					</apex:outputPanel>
+
+					<apex:outputPanel layout="inline">
+						This is a span
+					</apex:outputPanel>
+
+					<apex:outputPanel layout="none">
+						There is no tag wrapped around me!
+					</apex:outputPanel>
+				</apex:pageBlockSection>
+				
+				<apex:pageBlockButtons location="both">
+					<apex:commandButton value="My Button" />
+					<apex:commandButton value="Cancel" />
+				</apex:pageBlockButtons>
+
+				<apex:pageBlockSection columns="1">
+					<apex:outputText label="Output Text Label" value="This is the value" />
+
+					<apex:outputText label="Visible" value="This is visible" />
+
+					<apex:outputText label="Hidden" value="This is hidden" rendered="false"/>
+
+					<apex:pageBlockSectionItem helpText="HELP ME!!!">
+						<apex:outputLabel value="My Label" />
+						<apex:outputText value="My Text"/>
+					</apex:pageBlockSectionItem>
+
+					<!-- This shows that label attribute cannot be used -->
+					<apex:pageBlockSectionItem helpText="HELP ME!!!">
+						<apex:outputText label="inline label" value="My Text - my label is ignored!"/>
+					</apex:pageBlockSectionItem>
+
+				</apex:pageBlockSection>
+				
+
+			</apex:pageBlock>
+		</apex:form>
+	</apex:sectionHeader>
+
+
+	<div>
+		<p>We can write whatever HTML we want!!!!!</p>
+		<ul style="float: right;">
+			<li>This</li>
+			<li>Is</li>
+			<li>a</li>
+			<li>List!!!</li>
+		</ul>
+	</div>
+
+
+
+</apex:page>
+
+
+
+<!-- SOME OTHER CODE -->
+
+
+<!-- This first part determines if we want the SFDC tab bar and sidebar to show on our page -->
+<apex:page showHeader="false" sidebar="false" >
+
+	<apex:sectionHeader title="Day 13 visualforce Page" subtitle="This is a subtitle!" />
+	<apex:pageBlock title="Page Block Title">
+		<apex:pageBlockButtons location="top">
+			<!-- we could put buttons here -->
+		</apex:pageBlockButtons>
+		<apex:pageBlockSection title="MyPageBlockSectionTitle" columns="1">
+			Ok, we can just type stuff, though it is recommended to surround with outputPanel
+			<apex:outputPanel layout="block">
+				apex:outputPanel -> Span tag is generated if layout = block
+			</apex:outputPanel>
+			<apex:outputPanel layout="inline">
+				apex:outputPanel -> Span tag is generated if layout = inline
+			</apex:outputPanel>
+			<apex:outputPanel layout="none">
+				apex:outputPanel -> No surrounding HTML tag generated if layout is none
+				<apex:outputText value="Visible" rendered="true"> <br/> uh, oh - we specified value and added text - value is appended hered: </apex:outputText>
+				<apex:outputText value="Hidden" rendered="false"> This is some hidden output text</apex:outputText>
+			</apex:outputPanel>
+		</apex:pageBlockSection>
+	</apex:pageBlock>
+	<apex:form >	
+		<apex:pageBlock >
+			
+			<apex:pageBlockButtons location="both">		
+				<apex:commandButton value="Button"/>
+			</apex:pageBlockButtons>
+
+			<!-- Page block section is contained within a page block, this mimics standard latouts -->
+			<apex:pageBlockSection >
+				<!-- Because there is no label, this renders a bit funny -->
+				<apex:outputText value="Some output field with no label" />
+				<!-- These render in the same layout as SFDC page layouts -->
+				<apex:outputText value="Some output field with label" label="Field Label" />
+				<apex:outputText value="Notice that data is automatically placed in columns" label="More Info" />
+				<apex:outputText value="Notice that data is automatically placed in columns" label="More Info" />
+
+				<!-- In some cases, we may want to use a -->
+			</apex:pageBlockSection>
+
+			<apex:pageBlockSection columns="1" title="Page Block Section With One Column" collapsible="false">
+				<!-- Because there is no label, this renders a bit funny -->
+				<apex:outputText value="Some output field with no label" />
+				<!-- These render in the same layout as SFDC page layouts -->
+				<apex:outputText value="Some output field with label" label="Field Label" />
+				<apex:outputText value="Notice that data is automatically placed in columns" label="More Info" />
+				<apex:outputText value="Notice that data is automatically placed in columns" label="More Info" />
+
+				<!-- In some cases, we may want to use a pageBlockSectionItem so we can show helptext (ONLY AVAILABLE WITH SHOWHEADER)-->
+				<apex:pageBlockSectionItem helpText="HELP ME!!!!">
+					<apex:outputLabel value="Some Label" />
+					<apex:inputText />
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem helpText="Label attribute here acts differently and is ignored">
+					<apex:inputText label="Some Label"/>
+				</apex:pageBlockSectionItem>
+			</apex:pageBlockSection>
+
+		</apex:pageBlock>
+	</apex:form>
+
+	<div>
+		<p>We can relly do whatever we want if it suites our fancy. We can use standard html if we REALLY wanted to, but then we lose a lot of the functionality of Visualforce in general. (UNLESS USING LDS)</p>
+		<ul style="float: right">
+			<li>This</li>
+			<li>Is</li>
+			<li>A</li>
+			<li>List</li>
+			<li>Look Ma, no apex tags and it worked just fine!</li>
+		</ul>
+		<p>Pulling in external CSS libraries will almost surly cause conflicts with SFDC if using the sidebar or header..... Best not to in most cases.  And besides, you can always learn Lightning and Javascript to create pages that are truly sexy.</p>
+		<p>On final thought - don't be afraid to use native HTML in some cases for basic text output - but if you need data binding, ajax, standard page layout look and feel - then avoid it for those parts of the page</p>
+	</div>
+
+</apex:page>
+
+
+
+
+
+
+
+<apex:page showHeader="true" sidebar="true" controller="Day13Controller">
+	
+	<apex:form >
+		<apex:pageMessages />
+		<apex:commandButton value="Query Accounts" action="{!getAccounts}" reRender="account-list,account-list123"/>
+
+		<apex:outputPanel id="account-list123">
+			
+			<ul>
+				<!-- for(Account account : accounts) -->
+				<apex:repeat var="account" value="{!accounts}">
+					<li>{!account.Name} ({!account.Id})</li>
+				</apex:repeat>
+			</ul>
+
+		</apex:outputPanel>
+
+	</apex:form>
+
+</apex:page>
+
+
+
+

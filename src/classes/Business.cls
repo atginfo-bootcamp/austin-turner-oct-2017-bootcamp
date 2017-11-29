@@ -59,9 +59,3 @@ public with sharing class Business {
 	}
 
 }
-
-
-
-
-
-

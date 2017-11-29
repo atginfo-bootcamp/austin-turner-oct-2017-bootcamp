@@ -460,19 +460,29 @@
 	"buffers":
 	[
 		{
-			"file": "src/package.xml",
+			"file": "src/classes/Business.cls",
 			"settings":
 			{
-				"buffer_size": 522,
+				"buffer_size": 1582,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/classes/Day0Example.cls",
+			"file": "src/classes/Employee.cls",
 			"settings":
 			{
-				"buffer_size": 71,
+				"buffer_size": 1294,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\t• We want to build a business\n\t\t○ We will have one location to start\n\t\t○ A business has the following properties:\n\n\t\t\n\t\t\t§ Name of business (all locations share same business name)\n\t\t\t§ Location name\n\t\t\t§ Location address\n\t\t\t§ Location phone number\n\t\t\t§ Employees\n\n\n\n\t\t○ Employees have\n\t\t\t§ Employee id (must be all numeric and unique across entire company)\n\t\t\t§ Position Title\n\t\t\t\t□ Executive, Manager, Employee\n\t\t\t§ First name\n\t\t\t§ Last name\n\t\t\t§ Hire date\n\t\t\t§ Status\n\t\t\t\t□ Active, Terminated, Suspended\n\t\t\t§ Status Datetime\n\t• We should be able to do the following actions on a location:\n\t\t○ Initialize a business\n\t\t\t§ All fields must be set - no employees can be added during init\n\t\t○ Add employee\n\t\t○ Add multiple employees\n\t\t○ Get all employees for a location\n\t\t○ Get employee by employee id, return null if not found\n\t\t○ Transfer employee from one location to another (BONUS)\n\t\t○ Print out company information in a pretty format AND optionally print out all employee information\n\t• We should be able to do the following actions on an employee:\n\t\t○ Initialize employee\n\t\t\t§ Should be assigned next available employee id\n\t\t\t§ All other fields must be set at time of initialization\n\t\t○ Change position\n\t\t○ Change last name\n\t\t○ Print out employee information in a pretty format\n\t\t○ Update status\n\t\t\t§ Status Date should also be update any time status changes\n\t\t○ Get status\nGet status date",
+			"settings":
+			{
+				"buffer_size": 1394,
+				"line_ending": "Unix",
+				"name": "• We want to build a business"
 			}
 		}
 	],
@@ -483,10 +493,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 179.0,
-		"last_filter": "javs",
+		"height": 149.0,
+		"last_filter": "lower",
 		"selected_items":
 		[
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
 			[
 				"javs",
 				"Set Syntax: JavaScript"
@@ -514,10 +532,6 @@
 			[
 				"java",
 				"Set Syntax: Java"
-			],
-			[
-				"upper",
-				"Convert Case: Upper Case"
 			],
 			[
 				"conc",
@@ -575,6 +589,9 @@
 	],
 	"file_history":
 	[
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src/classes/Person.cls",
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src/package.xml",
+		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src/classes/Day0Example.cls",
 		"/Users/austinturner/dev/mm-force.com/apex-bootcamp-october2017/src/classes/Day0Example.cls-meta.xml",
 		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/InfringmentHelper.cls",
 		"/Users/austinturner/dev/mm-force.com/jukin-media-dev/src/classes/OracleJournalXmlHelper.cls",
@@ -699,14 +716,11 @@
 		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/PaymentAllocationUtils.cls",
 		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/triggers/IIT_TriggerOnInvoiceLine.trigger",
 		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/MannaBillingController.cls",
-		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/sharenotices.page",
-		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/InvoicePdf.page",
-		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/IIT_ClassAfterOnInvoiceLine.cls",
-		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/classes/CreateNewOrderController.cls"
+		"/Users/austinturner/dev/mm-force.com/CCM_UAT3/src/pages/sharenotices.page"
 	],
 	"find":
 	{
-		"height": 65.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -720,6 +734,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"email",
+			"age",
+			"name"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -742,34 +760,50 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/package.xml",
+					"file": "src/classes/Business.cls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 522,
+						"buffer_size": 1582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								916,
+								930
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										949,
+										950
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										930,
+										931
+									]
 								},
 								"unmatched":
 								{
@@ -777,69 +811,69 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"git_gutter_is_enabled": false,
-							"is_init_dirty_state": false,
+							"git_gutter_is_enabled": true,
+							"is_init_dirty_state": true,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 820.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -847,34 +881,50 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/classes/Day0Example.cls",
+					"file": "src/classes/Employee.cls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 71,
+						"buffer_size": 1294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								292,
+								292
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										1293,
+										1294
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										74,
+										75
+									]
 								},
 								"unmatched":
 								{
@@ -882,64 +932,64 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"git_gutter_is_enabled": true,
-							"is_init_dirty_state": false,
+							"is_init_dirty_state": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
 						},
@@ -951,11 +1001,122 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"auto_name": "• We want to build a business",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"git_gutter_is_enabled": false,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 65.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -970,11 +1131,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.548653157552,
 			1.0
 		],
 		"rows":
@@ -996,7 +1164,7 @@
 	"project": "apex-bootcamp-october2017.sublime-project",
 	"replace":
 	{
-		"height": 126.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1545,7 +1713,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 296.0,
 	"status_bar_visible": true,
 	"template_settings":

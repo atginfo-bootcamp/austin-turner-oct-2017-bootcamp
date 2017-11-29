@@ -144,5 +144,3 @@ public with sharing class Day3ListsAndLoops {
 	}
 
 }
-
-
