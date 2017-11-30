@@ -292,5 +292,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Day15DynamicSOQL.cls": {
+        "id": "01p1I00000D9MUcQAN",
+        "name": "Day15DynamicSOQL",
+        "createdDate": "2017-11-30T00:36:32.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-11-30T00:47:15.000+0000",
+        "fullName": "Day15DynamicSOQL",
+        "fileName": "unpackaged/classes/Day15DynamicSOQL.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }

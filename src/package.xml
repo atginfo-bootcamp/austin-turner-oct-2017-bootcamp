@@ -14,6 +14,7 @@
 		<members>MyAccountController</members>
 		<members>NewAccountController</members>
 		<members>AccountListControllerExt</members>
+		<members>Day15DynamicSOQL</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
