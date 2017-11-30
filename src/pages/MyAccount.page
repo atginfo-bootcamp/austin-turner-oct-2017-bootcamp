@@ -1,0 +1,16 @@
+<apex:page controller="MyAccountController" tabStyle="Account">
+
+	<apex:form>
+
+		<apex:pageBlock title="Congratulations {! $User.FirstName }">
+			You belong to Account Name: <apex:inputField value="{!account.name}" />
+
+			<apex:commandButton action="{!save}" value="Save the Account" />
+
+			<apex:inputField value="{!account.Type}" />
+
+		</apex:pageBlock>
+
+	</apex:form>
+
+</apex:page>

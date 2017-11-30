@@ -1,0 +1,19 @@
+<apex:page showHeader="true" sidebar="true" controller="NewAccountController">
+
+	<apex:form>
+		
+		<apex:pageBlock mode="edit">
+			<apex:pageMessages />
+			<apex:pageBlockSection>
+				<apex:inputField value="{!account.Name}" />
+				<apex:inputField value="{!account.Phone}" />
+				<apex:inputField value="{!account.Industry}" />
+			</apex:pageBlockSection>
+			<apex:pageBlockButtons location="bottom">
+				<apex:commandButton value="Create or Update Account" action="{!save}"/>
+			</apex:pageBlockButtons>
+		</apex:pageBlock>
+
+	</apex:form>
+	
+</apex:page>

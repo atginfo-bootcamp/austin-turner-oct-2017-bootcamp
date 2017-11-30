@@ -11,6 +11,9 @@
 		<members>Employee</members>
 		<members>LocationManagement</members>
 		<members>Person</members>
+		<members>MyAccountController</members>
+		<members>NewAccountController</members>
+		<members>AccountListControllerExt</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -21,6 +24,9 @@
 	</types>
 	<types>
 		<members>Day14VisualforcePage</members>
+		<members>MyAccount</members>
+		<members>NewAccount</members>
+		<members>AccountList</members>
 		<name>ApexPage</name>
 	</types>
 	<version>40.0</version>
