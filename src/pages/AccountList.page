@@ -1,0 +1,27 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account" tabStyle="Account" extensions="AccountListControllerExt">
+	
+	<apex:pageBlock title="Account Contacts">
+
+		<apex:pageBlockTable value="{!account.contacts}" var="contact">
+
+			<apex:column value="{!contact.FirstName}"/>
+			<apex:column value="{!contact.LastName}"/>
+			<apex:column value="{!contact.name}"/>
+
+		</apex:pageBlockTable>
+
+	</apex:pageBlock>
+
+	<apex:pageBlock title="All Products">
+
+		<apex:pageBlockTable value="{!products}" var="product">
+
+			<apex:column value="{!product.Name}"/>
+			<apex:column value="{!product.ProductCode}"/>
+			<apex:column value="{!product.Family}"/>
+
+		</apex:pageBlockTable>
+
+	</apex:pageBlock>
+
+</apex:page>
