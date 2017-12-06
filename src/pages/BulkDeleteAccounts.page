@@ -1,0 +1,42 @@
+<apex:page showHeader="true" sidebar="true" controller="BulkDeleteAccountsController">
+
+	<apex:form>
+
+		<apex:actionFunction
+			action="{!toggleSelectAll}"
+			name="toggleSelectAll"
+			reRender="query-accounts"
+		>
+		</apex:actionFunction>								
+
+		<apex:pageBlock title="Accounts" id="query-accounts">
+
+			<apex:pageMessages />
+
+			<apex:pageBlockButtons location="both">
+				<apex:commandButton
+					action="{! deleteSelectedAccounts }"
+					value="Delete Selected Accounts"
+				/>
+			</apex:pageBlockButtons>
+
+			<apex:pageBlockTable value="{! accountWrappers }" var="currAcctWrapper" >
+
+				<apex:column>
+					<apex:facet name="header">
+						<apex:inputCheckbox value="{!selectAll}" onchange="toggleSelectAll()" />
+					</apex:facet>
+					<apex:inputCheckbox value="{! currAcctWrapper.isChecked }" />
+				</apex:column>
+
+				<apex:column value="{! currAcctWrapper.account.Id }" />
+				<apex:column value="{! currAcctWrapper.account.Name }" />
+				<apex:column value="{! currAcctWrapper.account.Type }" />
+
+			</apex:pageBlockTable>
+
+		</apex:pageBlock>
+
+
+	</apex:form>
+</apex:page>

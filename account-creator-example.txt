@@ -1,0 +1,208 @@
+public with sharing class AccountCreatorController {
+	
+	private class AccountWrapper {
+		public Account account {get; set;}
+		public Boolean isSelected {get; set;}
+		public AccountWrapper(Account account) {
+			this.account = account;
+			this.isSelected = false;
+		}
+	}
+
+	public String accountNamingPrefix {get; set;}
+	public Integer numberOfAccounts {get; set;}
+	public Integer startingNumber {get; set;}
+	// We only have a getter method and we are adding code to dynamically to return the boolean value
+	public Boolean showUndoButton {
+		get{
+			return createdAccounts == null ? false : createdAccounts.size() > 0;
+		}}
+	@TestVisible
+	private  List<Account> createdAccounts {get; set;}
+
+	//// Query and Delete Variable
+	public String whereClause {get; set;}
+	public String soqlQuery {get; set;}
+	public  List<Account> queriedAccounts {get; set;}
+	
+	public List<AccountWrapper> accountWrappers {get; set;}
+	public Boolean allSelected {get; set;}
+
+
+	public AccountCreatorController() {
+
+		accountNamingPrefix = 'my-acct-';
+		numberOfAccounts = 5;
+		startingNumber = 1;
+		allSelected = false;
+	}
+
+	public PageReference createAccounts() {
+		if(numberOfAccounts <= 0) {
+			ApexPages.addmessage(new ApexPages.message(ApexPages.severity.WARNING, 'Number of accounts must be a positive value'));
+			return null;
+		}
+
+		createdAccounts = new List<Account>();
+		System.debug('number of accounts ' + numberOfAccounts);
+		for(Integer i = 0; i < numberOfAccounts; i++) {
+			// Create account name
+			String accountName = accountNamingPrefix + startingNumber;
+			// Increment starting number
+			startingNumber += 1;
+			createdAccounts.add(new Account(Name = accountName));
+		}
+		System.debug('createdAccounts ' + createdAccounts);
+		try {
+			insert createdAccounts;
+			ApexPages.addmessage(new ApexPages.message(ApexPages.severity.CONFIRM, 'Accounts have been successfully created'));
+		} catch(Exception ex) {
+			startingNumber = startingNumber - numberOfAccounts;
+			createdAccounts = null;
+			ApexPages.addmessage(new ApexPages.message(ApexPages.severity.ERROR, 'There was an error attempting to save the accounts - ' + ex.getMessage()));
+		}
+		return null;
+	}
+
+	public PageReference deleteCreatedAccounts() {
+		deleteAccounts(createdAccounts);
+		return null;
+	}
+
+	/**
+	 * Shared method to delete a list of accounts
+	 * @param accounts [description]
+	 */
+	public void x(List<Account> accounts) {
+		try {
+			delete accounts;
+			ApexPages.addmessage(new ApexPages.message(ApexPages.severity.CONFIRM, accounts.size() + ' accounts have been successfully deleted'));
+		} catch(Exception ex) {
+			ApexPages.addmessage(new ApexPages.message(ApexPages.severity.ERROR, 'There was an error attempting to delete accounts - ' + ex.getMessage()));
+		}
+	}
+
+	public PageReference queryAccounts() {
+		allSelected = false;
+		soqlQuery = 'SELECT Id, Name, CreatedDate FROM Account ';
+		if(whereClause != null && whereClause != '') {
+			soqlQuery += 'WHERE ' + whereClause;
+		}
+		queriedAccounts = Database.query(soqlQuery);
+		ApexPages.addmessage(new ApexPages.message(ApexPages.severity.CONFIRM, queriedAccounts.size() + ' number of accounts found'));
+		
+		System.debug('queriedAccounts ' + queriedAccounts);
+
+		accountWrappers = new List<AccountWrapper>();
+		for(Account account : queriedAccounts) {
+			accountWrappers.add(new AccountWrapper(account));
+		}
+
+		return null;
+	}
+
+	public PageReference deleteQueriedAccounts() {
+		// Loop through accounts wrappers and find all selected
+		List<Account> accountsToDelete = new List<Account>();
+		for(AccountWrapper accountWrapper : accountWrappers) {
+			if(accountWrapper.isSelected) {
+				accountsToDelete.add(accountWrapper.account);
+			}
+		}
+		deleteAccounts(accountsToDelete);
+		queryAccounts();
+		return null;
+	}
+
+	public PageReference toggleSelectAll() {
+		// check value of allSelected
+		// loop through account wrappers and select all or unselect all
+		for(AccountWrapper accountWrapper : accountWrappers) {
+			accountWrapper.isSelected = allSelected;
+		}
+		return null;
+	}
+
+}
+
+
+
+
+<apex:page showHeader="true" sidebar="true" controller="AccountCreatorController">
+	
+
+	<apex:form >
+		<apex:pageBlock title="Create Accounts" tabStyle="Account" id="create-accounts">
+			<apex:pageMessages />
+			<apex:pageBlockButtons location="bottom">
+				<apex:commandButton value="Submit"
+					action="{!createAccounts}"
+					reRender="create-accounts"/>
+				<apex:commandButton value="Undo - Delete Created Accounts"
+					rendered="{!showUndoButton}"
+					reRender="create-accounts"
+					action="{!deleteCreatedAccounts}"/>
+			</apex:pageBlockButtons>
+
+			<apex:pageBlockSection title="Create New Accounts" columns="1">
+				<apex:inputText required="true" value="{!accountNamingPrefix}" label="Account Naming Prefix"/>
+
+				<apex:inputText required="true" value="{!numberOfAccounts}" label="Number of Accounts"/>
+
+				<apex:inputText required="true" value="{!startingNumber}" label="Starting Number After Prefix"/>
+
+
+
+			</apex:pageBlockSection>
+
+		</apex:pageBlock>
+
+		<apex:pageBlock title="View / Delete Accounts" tabStyle="Account" id="query-accounts">
+
+			<apex:pageMessages />
+			<apex:pageBlockButtons location="both">
+				<apex:commandButton action="{!queryAccounts}"
+					value="Query accounts"
+					reRender="query-accounts"/>
+				<apex:commandButton value="Delete Selected Accounts"
+					action="{!deleteQueriedAccounts}"
+					reRender="query-accounts"/>
+			</apex:pageBlockButtons>
+
+			<apex:pageBlockSection title="Query Accounts" columns="1">
+				<apex:inputTextarea value="{!whereClause}" label="SOQL Query WHERE Clause" cols="75" rows="5"/>
+
+				<apex:actionFunction action="{!toggleSelectAll}" name="toggleSelectAll" reRender="query-accounts">
+
+				</apex:actionFunction>
+
+				<apex:pageBlockTable value="{!accountWrappers}" var="wrapper">
+					<apex:column >
+						<apex:facet name="header">
+							<apex:inputCheckbox value="{!allSelected}" 
+								onchange="toggleSelectAll()"/>
+						</apex:facet>
+						<apex:inputCheckbox value="{!wrapper.isSelected}" />
+					</apex:column>
+					<apex:column >
+						<apex:facet name="header">Id</apex:facet>
+						<apex:outputField value="{!wrapper.account.Id}"/>
+					</apex:column>
+					<apex:column >
+						<apex:facet name="header">Name</apex:facet>
+						<apex:outputField value="{!wrapper.account.Name}"/>
+					</apex:column>
+					<apex:column >
+						<apex:facet name="header">Created Date</apex:facet>
+						<apex:outputField value="{!wrapper.account.CreatedDate}"/>
+					</apex:column>
+				</apex:pageBlockTable>
+
+			</apex:pageBlockSection>
+
+		</apex:pageBlock>
+
+	</apex:form>
+
+
+</apex:page>

@@ -1,0 +1,48 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account">
+	<apex:sectionHeader title="Create Account with Related" subtitle="Account / Contact / Opportunity" />
+	<apex:form>
+		<apex:pageBlock title="Input data" tabStyle="Account">
+			<apex:pageBlockButtons location="bottom">
+				<apex:commandButton value="Save Records" action="save" />
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="Account" columns="1">
+				<apex:inputField value="{!Account.name}" />
+				<apex:inputField value="{!Account.AccountNumber}" required="true" />
+				<apex:inputField value="{!Account.Description}" />
+				<apex:inputField value="{!Account.type}" required="true" />
+
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Contact" columns="1">
+				<apex:inputText label="First Name" required="true" />
+				<apex:inputText label="Last Name" required="true" />
+				<apex:inputText label="Salutation (make me picklist)" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Opportunity" columns="1">
+				<apex:inputText label="Opportunity Name" required="true" />
+				<apex:inputText label="Opportunity Type (make me picklist)" required="true" />
+				<apex:inputText label="Opportunity Stage (make me picklist)" required="true" />
+				<apex:inputText label="Opportunity Close Date (make me date picker)" required="true" />
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+		<apex:pageBlock title="Created Data (hide until data is created)"  tabStyle="Account">
+			<apex:pageBlockSection title="Account" columns="1">
+				<apex:outputField value="{!Account.name}" />
+				<apex:outputField value="{!Account.AccountNumber}" />
+				<apex:outputField value="{!Account.Description}" />
+				<apex:outputField value="{!Account.type}" />
+
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Contact" columns="1">
+				<apex:outputText label="First Name" />
+				<apex:outputText label="Last Name" />
+				<apex:outputText label="Salutation (make me picklist)" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Opportunity" columns="1">
+				<apex:outputText label="Opportunity Name" />
+				<apex:outputText label="Opportunity Type (make me picklist)" />
+				<apex:outputText label="Opportunity Stage (make me picklist)" />
+				<apex:outputText label="Opportunity Close Date (make me date picker)" />
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+</apex:page>

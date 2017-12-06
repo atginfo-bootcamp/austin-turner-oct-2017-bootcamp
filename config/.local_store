@@ -308,5 +308,53 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "BulkDeleteAccounts.page": {
+        "id": "0661I000003jHszQAE",
+        "name": "BulkDeleteAccounts",
+        "createdDate": "2017-11-30T22:20:43.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-12-01T00:06:47.000+0000",
+        "fullName": "BulkDeleteAccounts",
+        "fileName": "unpackaged/pages/BulkDeleteAccounts.page",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "BulkDeleteAccountsController.cls": {
+        "id": "01p1I00000DAEg5QAH",
+        "name": "BulkDeleteAccountsController",
+        "createdDate": "2017-11-30T22:21:10.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-12-01T00:09:29.000+0000",
+        "fullName": "BulkDeleteAccountsController",
+        "fileName": "unpackaged/classes/BulkDeleteAccountsController.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "AccountAndOppCreator_EXAMPLE.page": {
+        "id": "0661I000003jnOWQAY",
+        "name": "AccountAndOppCreator_EXAMPLE",
+        "createdDate": "2017-12-04T19:18:54.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2017-12-04T19:29:54.000+0000",
+        "fullName": "AccountAndOppCreator_EXAMPLE",
+        "fileName": "unpackaged/pages/AccountAndOppCreator_EXAMPLE.page",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
     }
 }
