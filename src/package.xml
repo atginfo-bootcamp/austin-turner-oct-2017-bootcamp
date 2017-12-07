@@ -19,6 +19,10 @@
 		<members>AccountAndOppCreatorController_ANDERS</members>
 		<members>AccountAndOppCreatorController_ANDERSTST</members>
 		<members>PassByReferenceExample</members>
+		<members>Animal</members>
+		<members>Dog</members>
+		<members>Fish</members>
+		<members>AnimalGod</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
