@@ -1,0 +1,52 @@
+<apex:page controller="AccountAndOppCreatorController_ANDERS" showHeader="true" sidebar="true">
+	<apex:form>
+		<apex:sectionHeader title="Create Account with Related" subtitle="Account / Contact / Opportunity" />
+		<apex:pageBlock title="Input Data" tabStyle="Account">
+			<apex:pageMessages id="error"/>
+			<apex:pageBlockSection title="Account" columns="1" id="Account">
+				<apex:inputField value="{!account.name}" />
+				<apex:inputField value="{!account.AccountNumber}" required="True" />
+				<apex:inputField value="{!account.Description}" />
+				<apex:inputField value="{!account.Type}" required="True"/>
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Contact" columns="1" id="Contact">
+				<apex:inputField value="{!contact.FirstName}" required="True"/>
+				<apex:inputField value="{!contact.LastName}" />
+				<apex:inputField value="{!contact.Salutation}" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Opportunity" columns="1" id="Opportunity">
+				<apex:inputField value="{!opportunity.name}" required="False"/>
+				<apex:inputField value="{!opportunity.Type}" required="True"/>
+				<apex:inputField value="{!opportunity.StageName}" required="True" />
+				<apex:inputField value="{!opportunity.CloseDate}" required="True"  />
+			</apex:pageBlockSection>
+
+			<apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!saveData}" value="Save Records" reRender="Account,Contact,Opportunity,savedData,error"/>
+            </apex:pageBlockButtons>
+
+		</apex:pageBlock>
+
+		<apex:outputPanel id="savedData">
+			<apex:pageBlock title="Created Data" rendered="{!showCreatedDataSection}">
+				<apex:pageBlockSection title="Account" columns="1">
+					<apex:outputField value="{!savedAccount.name}" />
+					<apex:outputField value="{!savedAccount.AccountNumber}" />
+					<apex:outputField value="{!savedAccount.Description}" />
+					<apex:outputField value="{!savedAccount.Type}" />
+				</apex:pageBlockSection>
+				<apex:pageBlockSection title="Contact" columns="1">
+					<apex:outputField value="{!savedContact.FirstName}" />
+					<apex:outputField value="{!savedContact.LastName}" />
+					<apex:outputField value="{!savedContact.Salutation}" />
+				</apex:pageBlockSection>
+				<apex:pageBlockSection title="Opportunity" columns="1">
+					<apex:outputField value="{!savedOpportunity.name}" />
+					<apex:outputField value="{!savedOpportunity.Type}" />
+					<apex:outputField value="{!savedOpportunity.StageName}"  />
+					<apex:outputField value="{!savedOpportunity.CloseDate}"   />
+				</apex:pageBlockSection>
+			</apex:pageBlock>
+		</apex:outputPanel>
+	</apex:form>
+</apex:page>
