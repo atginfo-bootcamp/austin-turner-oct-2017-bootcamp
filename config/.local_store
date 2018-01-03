@@ -548,5 +548,53 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "ProductTrigger.trigger": {
+        "id": "01q1I000001QSl7QAG",
+        "name": "ProductTrigger",
+        "createdDate": "2018-01-02T22:21:51.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2018-01-02T22:32:32.000+0000",
+        "fullName": "ProductTrigger",
+        "fileName": "unpackaged/triggers/ProductTrigger.trigger",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "ProductTriggerHelper.cls": {
+        "id": "01p1I00000FpsBaQAJ",
+        "name": "ProductTriggerHelper",
+        "createdDate": "2018-01-02T22:22:16.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2018-01-02T23:39:56.000+0000",
+        "fullName": "ProductTriggerHelper",
+        "fileName": "unpackaged/classes/ProductTriggerHelper.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Utils.cls": {
+        "id": "01p1I00000FpsDRQAZ",
+        "name": "Utils",
+        "createdDate": "2018-01-02T23:35:32.000+0000",
+        "createdById": "0051I000000uWiwQAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000uWiwQAE",
+        "lastModifiedDate": "2018-01-02T23:48:55.000+0000",
+        "fullName": "Utils",
+        "fileName": "unpackaged/classes/Utils.cls",
+        "createdByName": "Austin Turner",
+        "lastModifiedByName": "Austin Turner",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }

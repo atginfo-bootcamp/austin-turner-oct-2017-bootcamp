@@ -27,12 +27,15 @@
 		<members>AsyncExecutionExample</members>
 		<members>CreateContactForAccountBatch</members>
 		<members>CreateAccountSchedulable</members>
+		<members>ProductTriggerHelper</members>
+		<members>Utils</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>ContactTrigger</members>
 		<members>EmployeeTrigger</members>
 		<members>LeadTrigger</members>
+		<members>ProductTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
