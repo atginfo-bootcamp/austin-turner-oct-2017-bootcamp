@@ -13,6 +13,13 @@ public with sharing class ProductTriggerHelper {
 		for(Product2 product : changedProducts) {
 			System.debug('Product name changed: ' + product);
 		}
+
+
+		List<Product2> changedProductsWithExpectedPF = (List<Product2>) Utils.checkForChangedFields(products, oldProductMap, 'Family', 'Special');
+		
+		for(Product2 product : changedProductsWithExpectedPF) {
+			System.debug('Product family changed to special: ' + product);
+		}
 	}
 
 	// This is the old version before moving to sue generic SObject

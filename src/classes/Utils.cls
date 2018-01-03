@@ -14,6 +14,8 @@ public without sharing class Utils {
 			for(String field : fields) {
 				try {
 					if(newRecord.get(field) != oldRecord.get(field)) {
+						System.debug('field changed: ' + field);
+						System.debug('field changed record: ' + newRecord);
 						changedRecords.add(newRecord);
 						break;
 					}
@@ -26,4 +28,34 @@ public without sharing class Utils {
 		return changedRecords;
 	}
 
+	public static List<SObject> checkForChangedFields(List<SObject> newRecords, Map<Id, SObject> oldRecordMap, String field, String expectedValue) {
+		
+		List<SObject> changedRecordsOutput = new List<SObject>();
+
+		List<SObject> changedRecords = checkForChangedFields(newRecords, oldRecordMap, field);
+
+		System.debug('changedRecords: ' + changedRecords);
+
+		for(SObject changedRecord : changedRecords) {
+			if(changedRecord.get(field) == expectedValue) {
+				System.debug('field matched expected value: ' + changedRecord);
+				changedRecordsOutput.add(changedRecord);
+			} else {
+				System.debug('field NOT matched expected value: ' + changedRecord);
+			}
+		}
+
+		return changedRecordsOutput;
+
+	}
+
 }
+
+
+
+
+
+
+
+
+
