@@ -1,9 +1,8 @@
 <apex:page showHeader="true" sidebar="true" controller="BulkDeleteAccountsController">
 
-	<apex:form>
+	<apex:form >
 
-		<apex:actionFunction
-			action="{!toggleSelectAll}"
+		<apex:actionFunction action="{!toggleSelectAll}"
 			name="toggleSelectAll"
 			reRender="query-accounts"
 		>
@@ -14,15 +13,14 @@
 			<apex:pageMessages />
 
 			<apex:pageBlockButtons location="both">
-				<apex:commandButton
-					action="{! deleteSelectedAccounts }"
+				<apex:commandButton action="{! deleteSelectedAccounts }"
 					value="Delete Selected Accounts"
 				/>
 			</apex:pageBlockButtons>
 
 			<apex:pageBlockTable value="{! accountWrappers }" var="currAcctWrapper" >
 
-				<apex:column>
+				<apex:column >
 					<apex:facet name="header">
 						<apex:inputCheckbox value="{!selectAll}" onchange="toggleSelectAll()" />
 					</apex:facet>

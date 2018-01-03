@@ -1,10 +1,10 @@
 <apex:page showHeader="true" sidebar="true" controller="NewAccountController">
 
-	<apex:form>
+	<apex:form >
 		
 		<apex:pageBlock mode="edit">
 			<apex:pageMessages />
-			<apex:pageBlockSection>
+			<apex:pageBlockSection >
 				<apex:inputField value="{!account.Name}" />
 				<apex:inputField value="{!account.Phone}" />
 				<apex:inputField value="{!account.Industry}" />

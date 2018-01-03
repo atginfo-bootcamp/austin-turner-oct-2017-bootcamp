@@ -1,6 +1,6 @@
 <apex:page showHeader="true" sidebar="true" standardController="Account">
 	<apex:sectionHeader title="Create Account with Related" subtitle="Account / Contact / Opportunity" />
-	<apex:form>
+	<apex:form >
 		<apex:pageBlock title="Input data" tabStyle="Account">
 			<apex:pageBlockButtons location="bottom">
 				<apex:commandButton value="Save Records" action="save" />

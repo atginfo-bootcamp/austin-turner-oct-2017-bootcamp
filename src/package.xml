@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< Updated upstream
 	<types>
 		<members>Business</members>
 		<members>ContactTriggerHelper</members>
@@ -50,3 +51,52 @@
 	</types>
 	<version>40.0</version>
 </Package>
+=======
+    <types>
+        <members>AccountAndOppCreatorController_ANDERS</members>
+        <members>AccountAndOppCreatorController_ANDERSTST</members>
+        <members>AccountListControllerExt</members>
+        <members>Animal</members>
+        <members>AnimalGod</members>
+        <members>AsyncExecutionExample</members>
+        <members>BackToTheFuture</members>
+        <members>BulkDeleteAccountsController</members>
+        <members>Business</members>
+        <members>ContactTriggerHelper</members>
+        <members>CreateAccountSchedulable</members>
+        <members>CreateContactForAccountBatch</members>
+        <members>Day0Example</members>
+        <members>Day15DynamicSOQL</members>
+        <members>Day2GitExample</members>
+        <members>Day3ListsAndLoops</members>
+        <members>Day4CreatAccountsWithContacts</members>
+        <members>Day5Maps</members>
+        <members>Dog</members>
+        <members>Employee</members>
+        <members>Fish</members>
+        <members>LocationManagement</members>
+        <members>MyAccountController</members>
+        <members>NewAccountController</members>
+        <members>PassByReferenceExample</members>
+        <members>Person</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountAndOppCreator_ANDERS</members>
+        <members>AccountAndOppCreator_EXAMPLE</members>
+        <members>AccountList</members>
+        <members>BulkDeleteAccounts</members>
+        <members>Day14VisualforcePage</members>
+        <members>MyAccount</members>
+        <members>NewAccount</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ContactTrigger</members>
+        <members>EmployeeTrigger</members>
+        <members>LeadTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>40.0</version>
+</Package>
+>>>>>>> Stashed changes

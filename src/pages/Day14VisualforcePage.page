@@ -1,6 +1,6 @@
 <apex:page showHeader="true" sidebar="true" standardController="Account">
 	
-	<apex:form>
+	<apex:form >
 
 		<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
 		<apex:pageBlock title="MyPageBlockTitle">
